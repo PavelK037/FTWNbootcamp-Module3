@@ -3,11 +3,13 @@ A sample project for the track practice activities in Module 03 of the TWN Bootc
 
 ## Setup git on the local machine
 
+<details>
+<summary> Some list of useful git commands </summary>
 - instal git (done)
 - configure git, set:<br>
     git config --global user.name=PavelK037 <br>
     git config --global user.email=pavel.kostylev@outlook.com
-<br>
+<br />
 - setup ssh keys on the remote repo
 
 ## Command line instructions
@@ -30,6 +32,8 @@ git push origin main <br>
  " -u, --set-upstream
            For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands. For more
            information, see branch.<name>.merge in git-config(1)."
-  <br> the option -u, or --set-upstream use to push localy created branch to the remote repo.
-   <br> ...
+  <br />
+  **the option -u, or --set-upstream use to push localy created branch to the remote repo.**
+   <br />
+  </details>...
   
