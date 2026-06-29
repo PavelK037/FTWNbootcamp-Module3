@@ -1,8 +1,8 @@
 # FTWNbootcamp-Module3
 A sample project for the track practice activities in Module 03 of the TWN Bootcamp course.
 
-## Setup git on the local machine
-
+## Command line instructions
+### Setup git on the local machine
 <details>
 <summary> Some list of useful git commands </summary>
 - instal git (done)
@@ -12,8 +12,7 @@ A sample project for the track practice activities in Module 03 of the TWN Bootc
 <br />
 - setup ssh keys on the remote repo
 
-## Command line instructions
-- clone remote newly created project from Github or from GitLab repo 
+### Clone remote newly created project from Github or from GitLab repo 
 <br>
 git clone git@github.com:github.com/PavelK037/FTWNbootcamp-Module3 <br>
 cd FTWNbootcamp-Module3 <br>
