@@ -9,7 +9,8 @@ A sample project for the track practice activities in Module 03 of the TWN Bootc
     git config --global user.email=pavel.kostylev@outlook.com
 <br>
 - setup ssh keys on the remote repo
-  
+
+## Command line instructions
 - clone remote newly created project from Github or from GitLab repo 
 <br>
 git clone git@github.com:github.com/PavelK037/FTWNbootcamp-Module3 <br>
@@ -29,5 +30,6 @@ git push origin main <br>
  " -u, --set-upstream
            For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands. For more
            information, see branch.<name>.merge in git-config(1)."
+  <br> the option -u, or --set-upstream use to push localy created branch to the remote repo.
    <br> ...
   
