@@ -13,6 +13,10 @@ Set up your global user identity on your local machine before committing code:
 # Configure global user name and email
 git config --global user.name "PavelK037"
 git config --global user.email "pavel.kostylev@outlook.com"
+#Cache credentilas for Windows
+git config --global credential.helper wincred
+#Cache credentilas for Linux
+git config --global credential.helper cache
 ```
 
 ### 2. Scenario A: Cloning a New Remote Repository
@@ -78,4 +82,17 @@ Complete Command <br />
 Shorthand Equivalent (After -u)  <br />
 `git push` <br />
 `git pull` <br />
+
+### 5. Usefull commands
+
+For update local project info from remote repo - FETCH = take changes from origin <br />
+`git fetch --all` <br />
+Update for specific branch <br />
+`git remote update origin` <br />
+`git fetch origin <branch_name>` <br />
+
+PILL - fetch + merge <br />
+`git pull (origin)` <br />
+
+Check the log: `git log` or  `git log -3` (for show only 3 last changes)
 
