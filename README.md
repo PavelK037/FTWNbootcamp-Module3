@@ -65,6 +65,12 @@ When initializing a repository locally and pushing it for the first time, using 
 
 - The Benefit: Once this link is configured, you no longer need to write verbose target names when interacting with the server. Git automatically populates the defaults from your configuration file (`branch.main.merge`),
 
+Complete Command               Shorthand Equivalent (After -u) 
+<br />
+`git push origin main`         `git push`
+<br />
+`git pull origin main`         `git pull`
+<br />
 Complete Command
 `git push origin main`
 `git pull origin main`
